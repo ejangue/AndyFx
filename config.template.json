@@ -12,8 +12,9 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
-        "wsSettings": { "path": "${WSS_PATH}" }
+        "wsSettings": { 
+          "path": "${WSS_PATH}" 
+        }
       },
       "sniffing": { "enabled": true, "destOverride": ["http", "tls", "quic"] }
     }
